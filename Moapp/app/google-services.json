@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "480193499318",
+    "project_id": "moapp-d0b8e",
+    "storage_bucket": "moapp-d0b8e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:480193499318:android:5476b098bb4602e8cb9617",
+        "android_client_info": {
+          "package_name": "com.example.moapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "480193499318-84e1140rq280n9ku7elu6bjntjho8840.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.moapp",
+            "certificate_hash": "cea0048767e986313e8d06ecf024325ef83060d8"
+          }
+        },
+        {
+          "client_id": "480193499318-tjr9fahmsg23ibd06mla2ju11iosamgh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUur3_DgK1XdS1fJaazYdaEwWtMpFAhs4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "480193499318-tjr9fahmsg23ibd06mla2ju11iosamgh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
