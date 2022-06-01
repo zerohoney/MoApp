@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "/Users/kang-y.b/모앱2/Moapp/app/build/intermediates/merged_res/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/kang-y.b/모앱2/Moapp/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/kang-y.b/모앱2/Moapp/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/kang-y.b/모앱2/Moapp/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/kang-y.b/모앱2/Moapp/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/kang-y.b/모앱2/Moapp/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/kang-y.b/모앱2/Moapp/app/build/intermediates/merged_res/debug/layout_activity_home.xml.flat",
+        "source": "/Users/kang-y.b/모앱2/Moapp/app/src/main/res/layout/activity_home.xml"
+    },
+    {
+        "merged": "/Users/kang-y.b/모앱2/Moapp/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/kang-y.b/모앱2/Moapp/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/kang-y.b/모앱2/Moapp/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/kang-y.b/모앱2/Moapp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/kang-y.b/모앱2/Moapp/app/build/intermediates/merged_res/debug/layout_activity_signup.xml.flat",
+        "source": "/Users/kang-y.b/모앱2/Moapp/app/src/main/res/layout/activity_signup.xml"
+    },
+    {
+        "merged": "/Users/kang-y.b/모앱2/Moapp/app/build/intermediates/merged_res/debug/layout_activity_login.xml.flat",
+        "source": "/Users/kang-y.b/모앱2/Moapp/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/kang-y.b/모앱2/Moapp/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/kang-y.b/모앱2/Moapp/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/kang-y.b/모앱2/Moapp/app/build/intermediates/merged_res/debug/layout_activity_calendar.xml.flat",
+        "source": "/Users/kang-y.b/모앱2/Moapp/app/src/main/res/layout/activity_calendar.xml"
+    },
+    {
+        "merged": "/Users/kang-y.b/모앱2/Moapp/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/kang-y.b/모앱2/Moapp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/kang-y.b/모앱2/Moapp/app/build/intermediates/merged_res/debug/layout_activity_todolist.xml.flat",
+        "source": "/Users/kang-y.b/모앱2/Moapp/app/src/main/res/layout/activity_todolist.xml"
+    },
+    {
+        "merged": "/Users/kang-y.b/모앱2/Moapp/app/build/intermediates/merged_res/debug/drawable-v24_todo.png.flat",
+        "source": "/Users/kang-y.b/모앱2/Moapp/app/src/main/res/drawable-v24/todo.png"
+    },
+    {
+        "merged": "/Users/kang-y.b/모앱2/Moapp/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/kang-y.b/모앱2/Moapp/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/kang-y.b/모앱2/Moapp/app/build/intermediates/merged_res/debug/layout_activity_main.xml.flat",
+        "source": "/Users/kang-y.b/모앱2/Moapp/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/kang-y.b/모앱2/Moapp/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/kang-y.b/모앱2/Moapp/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/kang-y.b/모앱2/Moapp/app/build/intermediates/merged_res/debug/drawable-v24_calender.png.flat",
+        "source": "/Users/kang-y.b/모앱2/Moapp/app/src/main/res/drawable-v24/calender.png"
+    },
+    {
+        "merged": "/Users/kang-y.b/모앱2/Moapp/app/build/intermediates/merged_res/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/kang-y.b/모앱2/Moapp/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/kang-y.b/모앱2/Moapp/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/kang-y.b/모앱2/Moapp/app/src/main/res/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/kang-y.b/모앱2/Moapp/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/kang-y.b/모앱2/Moapp/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/kang-y.b/모앱2/Moapp/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/kang-y.b/모앱2/Moapp/app/src/main/res/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/kang-y.b/모앱2/Moapp/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/kang-y.b/모앱2/Moapp/app/src/main/res/mipmap-hdpi/ic_launcher.webp"
+    }
+]
