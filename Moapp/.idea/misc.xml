@@ -3,28 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="app/src/main/res/layout/activity_calendar.xml" value="0.18958333333333333" />
-        <entry key="app/src/main/res/layout/activity_calender.xml" value="0.3609375" />
-        <entry key="app/src/main/res/layout/activity_home.xml" value="0.3609375" />
-        <entry key="app/src/main/res/layout/activity_home_t.xml" value="0.18958333333333333" />
-        <entry key="app/src/main/res/layout/activity_login.xml" value="0.3609375" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.3609375" />
-        <entry key="app/src/main/res/layout/activity_signup.xml" value="0.18958333333333333" />
-        <entry key="app/src/main/res/layout/activity_signup_t.xml" value="0.18958333333333333" />
-        <entry key="app/src/main/res/layout/activity_todolist.xml" value="0.3609375" />
-        <entry key="app/src/main/res/layout/activity_todolist_t.xml" value="0.18958333333333333" />
-        <entry key="app/src/main/res/layout/calendar_main.xml" value="0.18958333333333333" />
-        <entry key="app/src/main/res/layout/test.xml" value="0.3609375" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MoApp/Moapp/app/src/main/res/layout/activity_calendar.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MoApp/Moapp/app/src/main/res/layout/activity_login.xml" value="0.3619791666666667" />
       </map>
     </option>
   </component>
-  <component name="ProjectPlainTextFileTypeManager">
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/test.xml" />
-  </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/build/classes" />
-  </component>
-  <component name="ProjectType">
-    <option name="id" value="Android" />
-  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK" />
 </project>
