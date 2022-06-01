@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card_view"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        app:cardCornerRadius="4dp"
+        app:cardUseCompatPadding="true"
+        app:strokeColor="@color/black"
+        app:strokeWidth="1dp">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="StartTime"
+    android:layout_marginLeft="100dp"
+    android:layout_marginTop="5dp"
+    android:textSize="20dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5px"
+            android:layout_marginTop="40dp"
+            android:background="@color/black" />
+        <TimePicker
+            android:id="@+id/timePicker1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:timePickerMode="spinner"
+            android:layout_gravity="center"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/save"
+            android:backgroundTint="#F4B0B0"
+            android:text="저장"
+            android:layout_gravity="bottom|center"/>
+    </com.google.android.material.card.MaterialCardView>
+</LinearLayout>
