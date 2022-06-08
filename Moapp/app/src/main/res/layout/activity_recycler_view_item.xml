@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="2"
+                android:id="@+id/checkImg"
+                android:src="@drawable/check" />
+
+            <TextView
+                android:id="@+id/todoTime"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="4"
+                android:text="00:00~00:00" />
+
+            <TextView
+                android:id="@+id/todoWhat"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="4"
+                android:text="doing1" />
+
+            <Switch
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="2"
+                android:id="@+id/todoSwitch"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="275dp"
+            android:layout_height="4dp"
+            android:layout_marginLeft="69dp"
+            android:background="@color/pink" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

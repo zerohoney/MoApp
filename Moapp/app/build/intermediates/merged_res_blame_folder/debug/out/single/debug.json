@@ -1,35 +1,107 @@
 [
     {
-        "merged": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
-    },
-    {
-        "merged": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_brush_24.xml.flat",
-        "source": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\src\\main\\res\\drawable\\ic_baseline_brush_24.xml"
-    },
-    {
-        "merged": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_add_schedule.xml.flat",
-        "source": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\src\\main\\res\\layout\\activity_add_schedule.xml"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\build\\intermediates\\merged_res\\debug\\layout_new_app_widget.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\src\\main\\res\\layout\\new_app_widget.xml"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\build\\intermediates\\merged_res\\debug\\drawable_grad_2.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\src\\main\\res\\drawable\\grad_2.xml"
+    },
+    {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_todolist.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\src\\main\\res\\layout\\activity_todolist.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\build\\intermediates\\merged_res\\debug\\drawable_check.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\src\\main\\res\\drawable\\check.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_home.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\src\\main\\res\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\build\\intermediates\\merged_res\\debug\\layout_widget.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\src\\main\\res\\layout\\widget.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\build\\intermediates\\merged_res\\debug\\layout_acitivity_alarm_screen.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\src\\main\\res\\layout\\acitivity_alarm_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\build\\intermediates\\merged_res\\debug\\drawable_grad_1.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\src\\main\\res\\drawable\\grad_1.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\build\\intermediates\\merged_res\\debug\\drawable_todo.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\src\\main\\res\\drawable\\todo.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\build\\intermediates\\merged_res\\debug\\drawable_calender.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\src\\main\\res\\drawable\\calender.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\build\\intermediates\\merged_res\\debug\\drawable_round_corner.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\src\\main\\res\\drawable\\round_corner.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_calender.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\src\\main\\res\\layout\\activity_calender.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_brush_24.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\src\\main\\res\\drawable\\ic_baseline_brush_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\build\\intermediates\\merged_res\\debug\\drawable_uncheck.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\src\\main\\res\\drawable\\uncheck.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_add_schedule.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\src\\main\\res\\layout\\activity_add_schedule.xml"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_signup.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\src\\main\\res\\layout\\activity_signup.xml"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\build\\intermediates\\merged_res\\debug\\layout_calendar_main.xml.flat",
@@ -44,16 +116,24 @@
         "source": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_recycler_view_item.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\src\\main\\res\\layout\\activity_recycler_view_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
-    },
-    {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\build\\intermediates\\merged_res\\debug\\drawable_example_appwidget_preview.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\src\\main\\res\\drawable\\example_appwidget_preview.png"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
@@ -64,15 +144,7 @@
         "source": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\src\\main\\res\\layout\\add_schedule_popup.xml"
     },
     {
-        "merged": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\build\\intermediates\\merged_res\\debug\\layout_test.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\src\\main\\res\\layout\\test.xml"
     }
 ]

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/grad_1"
+    tools:context=".activity.MainActivity">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+</LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/timeshow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop= "100dp"
+            android:text="00:00"
+            android:textSize="70dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/todoshow"
+            android:layout_marginTop="60dp"
+            android:layout_below="@+id/timeshow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Doing1"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_below="@+id/todoshow"
+            android:layout_marginTop="70dp"
+            android:background="#FFFF00"
+            android:text="memo"
+            android:textSize="20dp"
+            android:gravity="center"
+            ></TextView>
+
+        <Button
+            android:id="@+id/loginBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="83dp"
+            android:backgroundTint="@color/white"
+            android:padding="12dp"
+            android:text="STOP"
+            android:textColor="#F4B0B0"
+            android:textSize="20dp"
+            android:textStyle="bold">
+
+
+        </Button>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
