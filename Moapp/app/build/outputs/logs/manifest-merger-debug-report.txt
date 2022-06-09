@@ -12,12 +12,13 @@ MERGED from [com.google.firebase:firebase-analytics:21.0.0] C:\Users\user\.gradl
 MERGED from [com.google.firebase:firebase-auth:21.0.5] C:\Users\user\.gradle\caches\transforms-3\2cc08e6e4af08e35df236d9958230702\transformed\firebase-auth-21.0.5\AndroidManifest.xml:17:1-73:12
 MERGED from [com.google.firebase:firebase-storage:20.0.1] C:\Users\user\.gradle\caches\transforms-3\781cfed6792636743c0f7fc15107d7ec\transformed\firebase-storage-20.0.1\AndroidManifest.xml:15:1-39:12
 MERGED from [com.google.firebase:firebase-database:20.0.5] C:\Users\user\.gradle\caches\transforms-3\0b0e525283f413bd290b85a52977eadb\transformed\firebase-database-20.0.5\AndroidManifest.xml:15:1-38:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\user\.gradle\caches\transforms-3\38e5b66d42b0986267915b7e3e70732a\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\user\.gradle\caches\transforms-3\0d3d11624f037d959a0c4d48683ed272\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\user\.gradle\caches\transforms-3\6ce665f93413e69f06e123ad51aeca95\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] C:\Users\user\.gradle\caches\transforms-3\5ce93090fd96fb0a9a43cfbcdd8b7ac7\transformed\firebase-appcheck-interop-16.0.0\AndroidManifest.xml:15:1-26:12
 MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\user\.gradle\caches\transforms-3\3b31d195179f561d9de7dd0c8d15c09f\transformed\play-services-measurement-api-21.0.0\AndroidManifest.xml:17:1-37:12
 MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\user\.gradle\caches\transforms-3\cc19bd5aaf1fbbff7fcb601e40f4c11b\transformed\firebase-installations-17.0.1\AndroidManifest.xml:2:1-24:12
 MERGED from [com.google.firebase:firebase-common:20.1.1] C:\Users\user\.gradle\caches\transforms-3\4831fb6c8465cb75e86d1c27b468b37c\transformed\firebase-common-20.1.1\AndroidManifest.xml:15:1-40:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\user\.gradle\caches\transforms-3\38e5b66d42b0986267915b7e3e70732a\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\user\.gradle\caches\transforms-3\fd521136ce2c6392395539f549a62f43\transformed\play-services-auth-api-phone-17.4.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\user\.gradle\caches\transforms-3\6860b130f9ab3b506df3cd72ce86393a\transformed\play-services-safetynet-17.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\user\.gradle\caches\transforms-3\604800b8840af1cb6ee45be131b6434d\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:2:1-9:12
@@ -48,7 +49,6 @@ MERGED from [androidx.browser:browser:1.4.0] C:\Users\user\.gradle\caches\transf
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\user\.gradle\caches\transforms-3\dec59acf9cfbbb39037c53495672aab7\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\user\.gradle\caches\transforms-3\2408fc7d790420ee448f417bb23cfe94\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\user\.gradle\caches\transforms-3\2f606e91dc7e22420fdfc6538ad60ac6\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\user\.gradle\caches\transforms-3\0d3d11624f037d959a0c4d48683ed272\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\user\.gradle\caches\transforms-3\d00be2566ad0e44c05827f0822a789bc\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core:1.7.0] C:\Users\user\.gradle\caches\transforms-3\fb9aa2ab3966fe894c67bd9003ea76a4\transformed\core-1.7.0\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\user\.gradle\caches\transforms-3\05b692d6bb80196908475c943c8d5575\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -211,6 +211,10 @@ MERGED from [com.google.firebase:firebase-storage:20.0.1] C:\Users\user\.gradle\
 MERGED from [com.google.firebase:firebase-storage:20.0.1] C:\Users\user\.gradle\caches\transforms-3\781cfed6792636743c0f7fc15107d7ec\transformed\firebase-storage-20.0.1\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-database:20.0.5] C:\Users\user\.gradle\caches\transforms-3\0b0e525283f413bd290b85a52977eadb\transformed\firebase-database-20.0.5\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-database:20.0.5] C:\Users\user\.gradle\caches\transforms-3\0b0e525283f413bd290b85a52977eadb\transformed\firebase-database-20.0.5\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\user\.gradle\caches\transforms-3\38e5b66d42b0986267915b7e3e70732a\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\user\.gradle\caches\transforms-3\38e5b66d42b0986267915b7e3e70732a\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\user\.gradle\caches\transforms-3\0d3d11624f037d959a0c4d48683ed272\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\user\.gradle\caches\transforms-3\0d3d11624f037d959a0c4d48683ed272\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\user\.gradle\caches\transforms-3\6ce665f93413e69f06e123ad51aeca95\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\user\.gradle\caches\transforms-3\6ce665f93413e69f06e123ad51aeca95\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] C:\Users\user\.gradle\caches\transforms-3\5ce93090fd96fb0a9a43cfbcdd8b7ac7\transformed\firebase-appcheck-interop-16.0.0\AndroidManifest.xml:19:5-21:41
@@ -221,8 +225,6 @@ MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\user\.g
 MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\user\.gradle\caches\transforms-3\cc19bd5aaf1fbbff7fcb601e40f4c11b\transformed\firebase-installations-17.0.1\AndroidManifest.xml:6:5-8:41
 MERGED from [com.google.firebase:firebase-common:20.1.1] C:\Users\user\.gradle\caches\transforms-3\4831fb6c8465cb75e86d1c27b468b37c\transformed\firebase-common-20.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-common:20.1.1] C:\Users\user\.gradle\caches\transforms-3\4831fb6c8465cb75e86d1c27b468b37c\transformed\firebase-common-20.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\user\.gradle\caches\transforms-3\38e5b66d42b0986267915b7e3e70732a\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\user\.gradle\caches\transforms-3\38e5b66d42b0986267915b7e3e70732a\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\user\.gradle\caches\transforms-3\fd521136ce2c6392395539f549a62f43\transformed\play-services-auth-api-phone-17.4.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\user\.gradle\caches\transforms-3\fd521136ce2c6392395539f549a62f43\transformed\play-services-auth-api-phone-17.4.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\user\.gradle\caches\transforms-3\6860b130f9ab3b506df3cd72ce86393a\transformed\play-services-safetynet-17.0.0\AndroidManifest.xml:20:5-44
@@ -283,8 +285,6 @@ MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\user\.gra
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\user\.gradle\caches\transforms-3\2408fc7d790420ee448f417bb23cfe94\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\user\.gradle\caches\transforms-3\2f606e91dc7e22420fdfc6538ad60ac6\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\user\.gradle\caches\transforms-3\2f606e91dc7e22420fdfc6538ad60ac6\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\user\.gradle\caches\transforms-3\0d3d11624f037d959a0c4d48683ed272\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\user\.gradle\caches\transforms-3\0d3d11624f037d959a0c4d48683ed272\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\user\.gradle\caches\transforms-3\d00be2566ad0e44c05827f0822a789bc\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\user\.gradle\caches\transforms-3\d00be2566ad0e44c05827f0822a789bc\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.7.0] C:\Users\user\.gradle\caches\transforms-3\fb9aa2ab3966fe894c67bd9003ea76a4\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41

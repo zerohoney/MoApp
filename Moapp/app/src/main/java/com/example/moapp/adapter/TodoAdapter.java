@@ -27,9 +27,11 @@ public class TodoAdapter extends RecyclerView.Adapter<TodoAdapter.ViewHolder> {
     private List<Schedule> scheduleList;
     private int selectedPosition = -1;
 
-    public TodoAdapter(List<Schedule> tempScheduleList) {
-        this.scheduleList = tempScheduleList;
+
+    public void setScheduleList(List<Schedule> scheduleList) {
+        this.scheduleList = scheduleList;
     }
+
 
     @NonNull
     @Override
@@ -42,6 +44,7 @@ public class TodoAdapter extends RecyclerView.Adapter<TodoAdapter.ViewHolder> {
         return viewHolder;
     }
 
+
     @Override
     public void onBindViewHolder(@NonNull TodoAdapter.ViewHolder holder, int position) {
         Schedule scheduleListTempList = scheduleList.get(position);
@@ -52,7 +55,7 @@ public class TodoAdapter extends RecyclerView.Adapter<TodoAdapter.ViewHolder> {
 
     @Override
     public int getItemCount() {
-        return 0;
+        return scheduleList.size();
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
@@ -64,12 +67,12 @@ public class TodoAdapter extends RecyclerView.Adapter<TodoAdapter.ViewHolder> {
             super(itemView);
 
             imageView = itemView.findViewById(R.id.checkImg);
-            todoTime =  itemView.findViewById(R.id.todoTime);
+            todoTime = itemView.findViewById(R.id.todoTime);
             todoWhat = itemView.findViewById(R.id.todoWhat);
         }
 
         private void bind(Schedule scheduleList) {
-            todoTime.setText(scheduleList.getStartTime()+"~~"+scheduleList.getEndTime());
+            todoTime.setText(scheduleList.getStartTime() + "~~" + scheduleList.getEndTime());
             todoWhat.setText(scheduleList.getSummary());
         }
     }

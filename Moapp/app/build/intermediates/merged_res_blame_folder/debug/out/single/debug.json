@@ -8,16 +8,16 @@
         "source": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\build\\intermediates\\merged_res\\debug\\drawable_grad_2.xml.flat",
-        "source": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\src\\main\\res\\drawable\\grad_2.xml"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_todolist.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\src\\main\\res\\layout\\activity_todolist.xml"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_todolist.xml.flat",
-        "source": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\src\\main\\res\\layout\\activity_todolist.xml"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\build\\intermediates\\merged_res\\debug\\drawable_grad_2.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\src\\main\\res\\drawable\\grad_2.xml"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\build\\intermediates\\merged_res\\debug\\drawable_check.png.flat",

@@ -15,6 +15,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.moapp.R;
 import com.example.moapp.adapter.TodoAdapter;
+import com.example.moapp.decoration.SetItemDecoration;
 import com.example.moapp.model.Schedule;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -34,11 +35,10 @@ public class MainCalendarActinty extends AppCompatActivity {
 
 
     private RecyclerView recyclerView;
-    private List<Schedule> Schedules=new ArrayList<>();
+    private List<Schedule> Schedules = new ArrayList<>();
     private TodoAdapter todoAdapter;
     private FirebaseAuth firebaseAuth;
     private DatabaseReference databaseReference;
-
 
 
     @Override
@@ -54,19 +54,32 @@ public class MainCalendarActinty extends AppCompatActivity {
             public void onSelectedDayChange(@NonNull CalendarView calendarView, int year, int month, int day) {
                 date = String.valueOf(year) + "/" + String.valueOf(month + 1) + "/" + String.valueOf(day);
                 Log.d("날짜", date);
-                FirebaseUser firebaseUser=firebaseAuth.getCurrentUser();
-                databaseReference.child(firebaseUser.getUid()).child(String.valueOf(year)).child(String.valueOf(month+1)).child(String.valueOf(day)).addListenerForSingleValueEvent(new ValueEventListener() {
+                FirebaseUser firebaseUser = firebaseAuth.getCurrentUser();
+                databaseReference.child(firebaseUser.getUid()).child(String.valueOf(year)).child(String.valueOf(month + 1)).child(String.valueOf(day)).addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot snapshot) {
+                        Schedules.clear();
                         Schedule tempSchedule;
-                        for(DataSnapshot dataSnapshot:snapshot.getChildren()){
-                            tempSchedule=dataSnapshot.getValue(Schedule.class);
+                        for (DataSnapshot dataSnapshot : snapshot.getChildren()) {
+                            tempSchedule = dataSnapshot.getValue(Schedule.class);
                             Schedules.add(tempSchedule);
                         }
-                        recyclerView = findViewById(R.id.todoRecyclerView);
+                        recyclerView = (RecyclerView) findViewById(R.id.todoRecyclerView);
                         recyclerView.setLayoutManager(new LinearLayoutManager(MainCalendarActinty.this));
-                        todoAdapter = new TodoAdapter(Schedules);
+                        SetItemDecoration itemDecoration = new SetItemDecoration(20);
+                        recyclerView.addItemDecoration(itemDecoration);
+                        if (Schedules.size() == 0) {
+                            todoAdapter = new TodoAdapter();
+                            Schedules.add(new Schedule("", "", "일정을 입력해 주세요", ""));
+                            todoAdapter.setScheduleList(Schedules);
+
+                        } else {
+
+                            todoAdapter = new TodoAdapter();
+                            todoAdapter.setScheduleList(Schedules);
+                        }
                         recyclerView.setAdapter(todoAdapter);
+
                     }
 
                     @Override

@@ -52,19 +52,15 @@
             ></CalendarView>
 
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="200dp">
+
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/todoRecyclerView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="10"
                 android:scrollbarFadeDuration="0"
                 android:scrollbarSize="5dp"
                 android:scrollbars="vertical" />
-        </LinearLayout>
 
 
         <LinearLayout
