@@ -1,0 +1,17 @@
+package com.example.moapp.model;
+
+public class Friend {
+    private String name;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public Friend(String name) {
+        this.name = name;
+    }
+}

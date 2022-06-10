@@ -32,6 +32,10 @@
         "source": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\src\\main\\res\\layout\\activity_home.xml"
     },
     {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_plus_friend_activity.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\src\\main\\res\\layout\\activity_plus_friend_activity.xml"
+    },
+    {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\build\\intermediates\\merged_res\\debug\\layout_widget.xml.flat",
         "source": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\src\\main\\res\\layout\\widget.xml"
     },
@@ -76,6 +80,10 @@
         "source": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\src\\main\\res\\drawable\\round_corner.xml"
     },
     {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\build\\intermediates\\merged_res\\debug\\drawable_search.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\src\\main\\res\\drawable\\search.png"
+    },
+    {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
     },
@@ -104,6 +112,10 @@
         "source": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\src\\main\\res\\layout\\activity_signup.xml"
     },
     {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\build\\intermediates\\merged_res\\debug\\drawable_friendicon.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\src\\main\\res\\drawable\\friendicon.png"
+    },
+    {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\build\\intermediates\\merged_res\\debug\\layout_calendar_main.xml.flat",
         "source": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\src\\main\\res\\layout\\calendar_main.xml"
     },
@@ -118,6 +130,10 @@
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_recycler_view_item.xml.flat",
         "source": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\src\\main\\res\\layout\\activity_recycler_view_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\build\\intermediates\\merged_res\\debug\\layout_plus_friend_category.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\src\\main\\res\\layout\\plus_friend_category.xml"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\MoApp\\Moapp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_login.xml.flat",

@@ -46,8 +46,8 @@
 26-->C:\Users\user\AndroidStudioProjects\MoApp\Moapp\app\src\main\AndroidManifest.xml:11:9-43
 27        <activity
 27-->C:\Users\user\AndroidStudioProjects\MoApp\Moapp\app\src\main\AndroidManifest.xml:12:9-20:20
-28            android:name="com.example.moapp.activity.MainActivity"
-28-->C:\Users\user\AndroidStudioProjects\MoApp\Moapp\app\src\main\AndroidManifest.xml:13:13-50
+28            android:name="com.example.moapp.activity.PlusFriendActivity"
+28-->C:\Users\user\AndroidStudioProjects\MoApp\Moapp\app\src\main\AndroidManifest.xml:13:13-56
 29            android:exported="true" >
 29-->C:\Users\user\AndroidStudioProjects\MoApp\Moapp\app\src\main\AndroidManifest.xml:14:13-36
 30            <intent-filter>

@@ -25,7 +25,7 @@
         android:testOnly="true"
         android:theme="@style/Theme.Moapp" >
         <activity
-            android:name="com.example.moapp.activity.MainActivity"
+            android:name="com.example.moapp.activity.PlusFriendActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -4,6 +4,7 @@ public class UserAccount {
     private String email;
     //    private String password;
     private String name;
+    private String birth;
 
     public String getEmail() {
         return email;
@@ -13,9 +14,9 @@ public class UserAccount {
         this.email = email;
     }
 
-    private String birth;
 
-    public UserAccount() { }
+    public UserAccount() {
+    }
 
 
 //    public String getPassword() {
@@ -42,7 +43,7 @@ public class UserAccount {
         this.birth = birth;
     }
 
-    public UserAccount(String idToken, String email, String name, String birth){
+    public UserAccount(String idToken, String email, String name, String birth) {
         this.email = email;
 //        this.password = password;
         this.name = name;
