@@ -47,8 +47,10 @@ public class MainCalendarActinty extends AppCompatActivity {
         setContentView(R.layout.activity_calender);
         calendarView = findViewById(R.id.calendar);
         btn = findViewById(R.id.angry_btn);
+
         firebaseAuth = FirebaseAuth.getInstance();
         databaseReference = FirebaseDatabase.getInstance().getReference("Data");
+
         calendarView.setOnDateChangeListener(new CalendarView.OnDateChangeListener() {
             @Override
             public void onSelectedDayChange(@NonNull CalendarView calendarView, int year, int month, int day) {

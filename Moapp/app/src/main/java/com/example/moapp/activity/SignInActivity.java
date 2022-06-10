@@ -23,6 +23,7 @@ import com.google.firebase.storage.FirebaseStorage;
 public class SignInActivity extends AppCompatActivity {
 
     private FirebaseAuth mAuth;
+
     private String email, password;
     private FirebaseStorage mStorage;
     private FirebaseAuth mFirebaseAuth;
@@ -63,13 +64,6 @@ public class SignInActivity extends AppCompatActivity {
                         }
                     }
                 });
-
-
-
-
-
-
-
 
             }
         });
