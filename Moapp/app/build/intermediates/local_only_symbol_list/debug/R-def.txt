@@ -46,6 +46,7 @@ id friendName
 id item_cardview
 id login
 id loginBtn
+id plusFriend
 id save
 id signupBtn
 id startBtn

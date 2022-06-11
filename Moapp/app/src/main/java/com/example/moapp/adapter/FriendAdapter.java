@@ -1,23 +1,41 @@
 package com.example.moapp.adapter;
 
+import android.annotation.SuppressLint;
+import android.app.Application;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.moapp.R;
+import com.example.moapp.activity.PlusFriendActivity;
+import com.example.moapp.decoration.SetItemDecoration;
 import com.example.moapp.model.Friend;
 import com.example.moapp.model.Schedule;
 import com.example.moapp.model.UserAccount;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 
 public class FriendAdapter extends RecyclerView.Adapter<FriendAdapter.ViewHolder> {
+    private FirebaseAuth mAuth;
+    private DatabaseReference databaseReference;
+    private FirebaseUser firebaseUser;
     private List<UserAccount> friendList;
     private int selectedPosition = -1;
 
@@ -39,12 +57,42 @@ public class FriendAdapter extends RecyclerView.Adapter<FriendAdapter.ViewHolder
 
 
     @Override
-    public void onBindViewHolder(@NonNull FriendAdapter.ViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull FriendAdapter.ViewHolder holder, @SuppressLint("RecyclerView") int position) {
         UserAccount friendListTempList = friendList.get(position);
+        mAuth = FirebaseAuth.getInstance();
+        firebaseUser = mAuth.getCurrentUser();
         holder.bind(friendListTempList);
 
+        holder.friendName.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                databaseReference = FirebaseDatabase.getInstance().getReference("UserAccount");
+                if(firebaseUser.getUid().equals(friendListTempList.getUID())){
+                    Toast.makeText(holder.friendName.getContext(),"자기자신한테는 친추를 할 수 없어요 ㅜ",Toast.LENGTH_SHORT).show();
 
+                }
+                databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
+                    @Override
+                    public void onDataChange(@NonNull DataSnapshot snapshot) {
+                        for (DataSnapshot dataSnapshot : snapshot.getChildren()) {
+                            friendList.add(dataSnapshot.getValue(UserAccount.class));
+
+                        }
+                        databaseReference.child(friendList.get(position + 1).getUID()).child("request").setValue(true);
+
+                    }
+
+                    @Override
+                    public void onCancelled(@NonNull DatabaseError error) {
+
+                    }
+
+                });
+
+            }
+        });
     }
+
 
     @Override
     public int getItemCount() {

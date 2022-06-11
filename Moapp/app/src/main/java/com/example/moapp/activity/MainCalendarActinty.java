@@ -31,8 +31,7 @@ import java.util.List;
 public class MainCalendarActinty extends AppCompatActivity {
     private CalendarView calendarView;
     private String date;
-    private Button btn;
-
+    private Button btn, plusFriendBtn;
 
 
     private RecyclerView recyclerView;
@@ -48,6 +47,7 @@ public class MainCalendarActinty extends AppCompatActivity {
         setContentView(R.layout.activity_calender);
         calendarView = findViewById(R.id.calendar);
         btn = findViewById(R.id.angry_btn);
+        plusFriendBtn=findViewById(R.id.plusFriend);
 
         firebaseAuth = FirebaseAuth.getInstance();
         databaseReference = FirebaseDatabase.getInstance().getReference("Data");
@@ -101,6 +101,14 @@ public class MainCalendarActinty extends AppCompatActivity {
                 intent.putExtra("date", date);
                 startActivity(intent);
 
+            }
+        });
+
+        plusFriendBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainCalendarActinty.this, PlusFriendActivity.class);
+                startActivity(intent);
             }
         });
 

@@ -62,6 +62,7 @@ public class SignUpActivity extends AppCompatActivity {
                             userAccount.setEmail(email);
                             userAccount.setName(name.getText().toString().trim());
                             userAccount.setBirth(birth.getText().toString().trim());
+                            userAccount.setUID(currentUser.getUid());
                             Toast.makeText(getApplicationContext(), "회원가입이 성공하였습니다.", Toast.LENGTH_SHORT).show();
                             Intent intent=new Intent(SignUpActivity.this,MainCalendarActinty.class);
 

@@ -23,7 +23,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class PlusFriendActivity extends AppCompatActivity {
+public class
+PlusFriendActivity extends AppCompatActivity {
     private DatabaseReference databaseReference;
     private List<UserAccount> userAccounts = new ArrayList<>();
     private RecyclerView recyclerView;

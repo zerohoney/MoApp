@@ -52,21 +52,34 @@
             ></CalendarView>
 
 
-
-
-            <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/todoRecyclerView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:scrollbarFadeDuration="0"
-                android:scrollbarSize="5dp"
-                android:scrollbars="vertical" />
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/todoRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbarFadeDuration="0"
+            android:scrollbarSize="5dp"
+            android:scrollbars="vertical" />
 
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="right">
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/plusFriend"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="right"
+
+                android:layout_marginRight="20dp"
+                android:backgroundTint="#F4B0B0"
+                android:shadowRadius="5"
+                android:text="친구 추가하기"
+                android:textColor="#F4F4F4"
+                android:textSize="25sp"
+                app:cornerRadius="500px" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/angry_btn"

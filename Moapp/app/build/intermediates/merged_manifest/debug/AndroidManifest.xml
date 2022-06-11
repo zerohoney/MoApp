@@ -25,7 +25,7 @@
         android:testOnly="true"
         android:theme="@style/Theme.Moapp" >
         <activity
-            android:name="com.example.moapp.activity.PlusFriendActivity"
+            android:name="com.example.moapp.activity.MainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -38,6 +38,7 @@
         <activity android:name="com.example.moapp.activity.SignUpActivity" />
         <activity android:name="com.example.moapp.activity.AddScheduleActivity" />
         <activity android:name="com.example.moapp.activity.MainCalendarActinty" />
+        <activity android:name="com.example.moapp.activity.PlusFriendActivity" />
         <activity
             android:name="com.google.firebase.auth.internal.GenericIdpActivity"
             android:excludeFromRecents="true"
