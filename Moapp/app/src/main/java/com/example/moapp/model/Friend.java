@@ -2,6 +2,11 @@ package com.example.moapp.model;
 
 public class Friend {
     private String name;
+    public Friend() {
+    }
+    public Friend(String name) {
+        this.name = name;
+    }
 
     public String getName() {
         return name;
@@ -11,7 +16,6 @@ public class Friend {
         this.name = name;
     }
 
-    public Friend(String name) {
-        this.name = name;
-    }
+
 }
+

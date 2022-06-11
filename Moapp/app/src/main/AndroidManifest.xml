@@ -24,6 +24,7 @@
         <activity android:name=".activity.AddScheduleActivity"/>
         <activity android:name=".activity.MainCalendarActinty"/>
         <activity android:name=".activity.PlusFriendActivity"/>
+        <activity android:name=".activity.FriendListActivity"/>
 
 
 

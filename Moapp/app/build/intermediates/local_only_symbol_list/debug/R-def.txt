@@ -41,12 +41,14 @@ id enter_id
 id enter_name
 id enter_pass
 id friendImage
+id friendListCheckRecyclerView
 id friendListRecyclerView
 id friendName
 id item_cardview
 id login
 id loginBtn
 id plusFriend
+id reqFriendName
 id save
 id signupBtn
 id startBtn
@@ -67,6 +69,7 @@ id widgetshow
 layout acitivity_alarm_screen
 layout activity_add_schedule
 layout activity_calender
+layout activity_friend_list
 layout activity_home
 layout activity_login
 layout activity_main
@@ -76,6 +79,7 @@ layout activity_signup
 layout activity_todolist
 layout add_schedule_popup
 layout calendar_main
+layout friend_list_category
 layout new_app_widget
 layout plus_friend_category
 layout test

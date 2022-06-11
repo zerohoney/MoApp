@@ -74,7 +74,7 @@ public class SignInActivity extends AppCompatActivity {
                                             @RequiresApi(api = Build.VERSION_CODES.M)
                                             @Override
                                             public void onClick(DialogInterface dialogInterface, int i) {
-                                                Intent intent = new Intent(SignInActivity.this, MainCalendarActinty.class);
+                                                Intent intent = new Intent(SignInActivity.this, FriendListActivity.class);
                                                 startActivity(intent);
                                             }
                                         });

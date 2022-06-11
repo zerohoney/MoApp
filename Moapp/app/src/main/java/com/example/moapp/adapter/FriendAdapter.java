@@ -62,13 +62,19 @@ public class FriendAdapter extends RecyclerView.Adapter<FriendAdapter.ViewHolder
         mAuth = FirebaseAuth.getInstance();
         firebaseUser = mAuth.getCurrentUser();
         holder.bind(friendListTempList);
-
+        long now;
+        Date mdDate;
+        String recent;
+        SimpleDateFormat mFormat = new SimpleDateFormat("yyyy-MM-dd");
+        now = System.currentTimeMillis();
+        mdDate = new Date(now);
+        recent = mFormat.format(mdDate);
         holder.friendName.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 databaseReference = FirebaseDatabase.getInstance().getReference("UserAccount");
-                if(firebaseUser.getUid().equals(friendListTempList.getUID())){
-                    Toast.makeText(holder.friendName.getContext(),"자기자신한테는 친추를 할 수 없어요 ㅜ",Toast.LENGTH_SHORT).show();
+                if (firebaseUser.getUid().equals(friendListTempList.getUID())) {
+                    Toast.makeText(holder.friendName.getContext(), "자기자신한테는 친추를 할 수 없어요 ㅜ", Toast.LENGTH_SHORT).show();
 
                 }
                 databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
@@ -76,9 +82,10 @@ public class FriendAdapter extends RecyclerView.Adapter<FriendAdapter.ViewHolder
                     public void onDataChange(@NonNull DataSnapshot snapshot) {
                         for (DataSnapshot dataSnapshot : snapshot.getChildren()) {
                             friendList.add(dataSnapshot.getValue(UserAccount.class));
-
                         }
-                        databaseReference.child(friendList.get(position + 1).getUID()).child("request").setValue(true);
+                        Friend friend = new Friend(firebaseUser.getUid());
+                        databaseReference.child(friendList.get(position ).getUID()).child("requestFriend").setValue(friend);
+                        databaseReference.child(friendList.get(position ).getUID()).child("request").setValue(true);
 
                     }
 
